@@ -68,14 +68,16 @@ too - it's ignored in the kickstart repo to make maintenance easier, but it's
 
 #### Clone kickstart.nvim
 
-> [!NOTE]
-> If following the recommended step above (i.e., forking the repo), replace
-> `dam9000` with `<your_github_username>` in the commands below
-
 <details><summary> Linux and Mac </summary>
 
 ```sh
-git clone https://github.com/dam9000/kickstart-modular.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/sudo-panda/kickstart-modular.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+
+OR if using github-cli
+
+```sh
+gh repo clone sudo-panda/kickstart-modular.nvim "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 </details>
@@ -85,13 +87,13 @@ git clone https://github.com/dam9000/kickstart-modular.nvim.git "${XDG_CONFIG_HO
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/dam9000/kickstart.nvim.git "%localappdata%\nvim"
+git clone https://github.com/sudo-panda/kickstart.nvim.git "%localappdata%\nvim"
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/dam9000/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+git clone https://github.com/sudo-panda/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
 ```
 
 </details>
